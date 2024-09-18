@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário de contato para o site sobre Gabriel Medina.">
+    <meta name="keywords" content="contato, formulário, Gabriel Medina, Olimpíadas 2024">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon-contact.png">
+    <script src="scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="destaque.html">DESTAQUE</a></li>
+                <li><a href="desafios.html">DESAFIOS</a></li>
+                <li><a href="medalhas.html">MEDALHAS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>CONTATO</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="rating">Avaliação:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Selecione</option>
+                    <option value="1">1 - Ruim</option>
+                    <option value="2">2 - Regular</option>
+                    <option value="3">3 - Bom</option>
+                    <option value="4">4 - Muito Bom</option>
+                    <option value="5">5 - Excelente</option>
+                </select>
+                
+                <label for="comment">Deixe aqui seu comentário:</label>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gustavo Camargo - Trabalho acadêmico sem fins lucrativos</p>
+    </footer>
+</body>
+</html>
